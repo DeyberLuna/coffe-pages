@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header__main{
+    background-color: #333;
+    box-shadow: 2px 3px 15px #444;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+body{
+    overflow-x: hidden;
+}
+.navbar__main{
+    background-color: #333;
+}
+.navbar__span{
+    letter-spacing: 3px;
+}
+
+
+/*BODY MAIN*/
+.container__grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-template-rows: repeat(auto-fit,minmax(200px,1fr));
+    grid-auto-rows: 200px;
+}
+.container__grid img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-img{
+    min-height: 200px;
+    min-width: 250px;
+    overflow: hidden;
+}
+/*custom divider box */
+.divider-custom{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+}
+.line-left{
+    background-color: #333;
+    height: 4px;
+    border-radius: 3px;
+    width: 100px;
+}
+.line-heigth{
+    background-color: #333;
+    height: 4px;
+    border-radius: 3px;
+    width: 100px;
+}
+
+/* footer */
+.footer__main{
+    background-image: url('https://img5.goodfon.com/wallpaper/nbig/b/82/osen-listia-fon-derevo-kofe-colorful-kruzhka-chashka-vintage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    object-fit: cover;
+    margin-top: 200px;
+    min-height: 300px;
+    height: auto;
+    color: white;
+}
